@@ -1,0 +1,226 @@
+body {
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* container */
+
+.container-fluid {
+    padding: 1% 15%;
+}
+
+/* color sections */
+
+.colored-section{
+    background-color: #FF4C68;
+    color: whitesmoke;
+}
+
+.white-section{
+    background-color: aliceblue;
+}
+
+.colored-section#testimonials, .colored-section#press {
+    background-color: #EF8172;
+}
+
+/* font size */
+
+.title-font{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.p-font {
+    font-size: 1rem;
+}
+
+/* title */
+
+.title-h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+#title {
+    text-align: left;
+}
+
+#features {
+    padding: 2rem 0;
+    position: relative;
+}
+
+.image-dog {
+    width: 15rem;
+    transform: rotate(25deg);
+    margin: 0 6rem;
+    position: absolute;
+}
+
+/* section 2  */
+.h3-s2 {
+    margin: 1rem 0 0.3rem 0;
+    font-size: 2rem;
+}
+
+.p {
+    color: #8F8F8F;
+}
+
+.icon-s2 {
+    color: #EF8172;
+}
+
+.icon-s2:hover {
+    color: #FF4C68;
+}
+
+.padding {
+    padding: 2rem;
+}
+
+/* navbar style */
+
+.nav-item {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+/* Testimonials */
+#testimonials {
+    padding: 1rem 2.5rem;
+}
+
+.h2-test {
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.image-test {
+    width: 7.5rem;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+    position: static;
+    top: 3.5rem;
+}
+
+/* press */
+#press {
+    padding-bottom: 3rem;
+}
+
+.image-press {
+    width: 20%;
+    padding: 0 2rem;
+}
+
+/* carousel && pricing section*/
+#pricing {
+    padding: 3.5rem 0;
+}
+
+/* Call to Action */
+#cta {
+    padding: 4rem 5rem;
+}
+
+/* Footer */
+#footer {
+    padding: 2rem 0;
+}
+
+/* media setting */
+
+@media (max-width: 760px) {
+
+    /* font size */
+    .title-font{
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+
+    .p-font{
+        font-size: 0.9rem;
+    }
+
+    /* title */
+
+    .image-dog {
+        position: static;
+        width: 10rem;
+        margin: 0;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    /* section 2 */
+
+    .padding {
+        padding: 0.5rem;
+    }
+
+    .h3-s2 {
+        font-size: 1.8rem;
+    }
+
+    /* carousel && pricing section*/
+    #pricing {
+        padding: 2rem 2rem;
+    }
+
+    .card {
+        margin: 1rem auto;
+    }
+
+    /* press */
+
+    .h2-test {
+        font-size: 1.5rem;
+        padding-bottom: 0;
+    }
+
+    .carousel-indicators {
+        top: 1rem;
+    }
+
+    .image-test {
+        width: 6rem;
+    }
+
+    .image-press {
+        padding: 0 0.5rem;
+    }
+
+    #testimonials {
+        padding: 1.5rem 0.5rem;
+    }
+
+    /* cta */
+
+    #cta {
+        font-size: 2rem;
+        line-height: 0.8rem;
+        padding: 2.5rem 2.5rem;
+    }
+
+}
